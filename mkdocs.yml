@@ -1,0 +1,10 @@
+site_name: Carlos Learn MkDocks
+site_url: https://ejemplo.com 
+
+docs_dir: docs
+
+nav:
+  - Introducción: index.md
+  - Quick-start: about.md
+
+theme: readthedocs
