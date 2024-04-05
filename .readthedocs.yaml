@@ -2,7 +2,7 @@ version: 2
 
 build:
   tools:
-    mkdocs: {}  # Diccionario vacío para MkDocs
+    python: "3.12"
   image: latest
   configuration: mkdocs.yml
   os: ubuntu-20.04
