@@ -3,7 +3,7 @@ version: 2
 build:
   image: latest
   configuration: mkdocs.yml
-  os: linux
+  os: ubuntu-20.04
   python:
     version: 3.10.12
   formats: all
