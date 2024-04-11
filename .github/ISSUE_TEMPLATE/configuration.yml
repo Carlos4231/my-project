@@ -13,9 +13,9 @@ body:
   - type: input
     id: contact
     attributes:
-      label: Detalle del contacto
+      label: Detalle contacto
       description: Por favor deja un punto de contacto para poder informarlo de la solucion del problema.
-      placeholder: aqui debe de ir tu correo.
+      placeholder: ejemplo. email@example.com
     validations:
       required: false
   - type: textarea
