@@ -1,51 +1,51 @@
 ---
-name: " Solicitud de Funcionalidad"
+name: Solicitud de Funcionalidad para CRUDDALS
 title: "[Feature Request]: "
-description: "Solicitar una nueva funcionalidad para el proyecto."
+description: "Solicitar una nueva funcionalidad para el proyecto CRUDDALS."
 labels:
-  - feature-request
+ - feature-request
+ - crud dals
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        **Descripción de la Funcionalidad:**
+ - type: markdown
+  attributes:
+   value: |
+    **Descripción de la Funcionalidad:**
 
-        * Describe claramente la funcionalidad que estás sugiriendo.
-        * ¿Qué problema resolvería esta nueva funcionalidad?
-        * ¿Qué beneficios traería al proyecto y a los usuarios?
+    * Describe claramente la funcionalidad que estás sugiriendo para CRUDDALS.
+    * ¿Qué problema resolvería esta nueva funcionalidad en el contexto de CRUDDALS?
+    * ¿Qué beneficios traería al proyecto y a los usuarios de CRUDDALS?
 
-  - type: textarea
-    attributes:
-      label: "Detalles de la Implementación:"
-      placeholder: |
-        * Describe cómo se podría implementar la nueva funcionalidad.
-        * ¿Hay algún componente o API específico que se debería usar?
-        * ¿Es posible proporcionar un ejemplo de código o un diagrama?
+ - type: textarea
+  attributes:
+   label: "Detalles de la Implementación:"
+   placeholder: |
+    * Describe cómo se podría implementar la nueva funcionalidad dentro de CRUDDALS.
+    * ¿Hay algún componente, API o modelo específico de CRUDDALS que se debería usar?
+    * ¿Es posible proporcionar un ejemplo de código o un diagrama que ilustre la implementación en CRUDDALS?
 
-  - type: textarea
-    attributes:
-      label: "Información Adicional:"
-      placeholder: |
-        * Comparte cualquier otra información que consideres relevante.
-        * ¿Hay algún caso de uso específico que se debería considerar?
-        * ¿Existen otras soluciones o alternativas que se han explorado?
+ - type: textarea
+  attributes:
+   label: "Información Adicional:"
+   placeholder: |
+    * Comparte cualquier otra información relevante en el contexto de CRUDDALS.
+    * ¿Hay algún caso de uso específico que se debería considerar dentro de CRUDDALS?
+    * ¿Existen otras soluciones o alternativas que se han explorado para CRUDDALS?
 
-  - type: checkboxes
-    attributes:
-      label: "Prioridad:"
-      options:
-      - label: "Baja"
-      - label: "Media"
-      - label: "Alta"
+ - type: checkboxes
+  attributes:
+   label: "Prioridad:"
+   options:
+   - label: "Baja"
+   - label: "Media"
+   - label: "Alta"
+   - label: "Crítica"
 
-  - type: textarea
-    attributes:
-      label: "Comentarios:"
-      placeholder: |
-        * Comparte cualquier comentario o pregunta adicional que tengas.
-
-
-
+ - type: textarea
+  attributes:
+   label: "Comentarios:"
+   placeholder: |
+    * Comparte cualquier comentario o pregunta adicional que tengas.
+    * ¿Esta solicitud está relacionada con una versión específica de CRUDDALS?
 
 
