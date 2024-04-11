@@ -1,5 +1,5 @@
 ---
-name: "💡 Solicitud de Funcionalidad"
+name: " Solicitud de Funcionalidad"
 title: "[Feature Request]: "
 description: "Solicitar una nueva funcionalidad para el proyecto."
 labels:
@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Descripción de la Funcionalidad:
+        **Descripción de la Funcionalidad:**
 
         * Describe claramente la funcionalidad que estás sugiriendo.
         * ¿Qué problema resolvería esta nueva funcionalidad?
@@ -35,15 +35,18 @@ body:
     attributes:
       label: "Prioridad:"
       options:
-        - Baja
-        - Media
-        - Alta
+      - value: "baja"
+        label: "Baja"
+      - value: "media"
+        label: "Media"
+      - value: "alta"
+        label: "Alta"
 
   - type: textarea
     attributes:
       label: "Comentarios:"
       placeholder: |
-        * Comparte cualquier comentario o pregunta adic
+        * Comparte cualquier comentario o pregunta adicional que tengas.
 
 
 
