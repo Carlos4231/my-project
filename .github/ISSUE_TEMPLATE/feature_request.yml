@@ -1,6 +1,5 @@
 ---
 name: "🚀 Solicitud de Funcionalidad"
-about: "Sugiere una nueva funcionalidad o mejora para el proyecto"
 title: "[Feature Request]: "
 labels: 
   - feature-request
@@ -12,25 +11,6 @@ body:
         **Descripción de la Funcionalidad**
         Describe claramente la funcionalidad que estás sugiriendo. ¿Qué problema resolvería? ¿Qué beneficios traería?
 
-  - type: markdown
-    attributes:
-      value: |
-        **Propuesta de Implementación**
-        Proporciona detalles sobre cómo esta funcionalidad podría ser implementada. ¿Hay algún enfoque o solución específica que sugieres?
-
-  - type: markdown
-    attributes:
-      value: |
-        **Caso de Uso**
-        Proporciona un caso de uso o escenario en el que esta funcionalidad sería útil o relevante.
-
-  - type: markdown
-    attributes:
-      value: |
-        **Capturas de Pantalla (si es aplicable)**
-        Si tienes alguna idea visual sobre cómo debería lucir esta funcionalidad, puedes adjuntar capturas de pantalla o bocetos aquí.
-
-  - type: textarea
     attributes:
       label: Información Adicional
       placeholder: Cualquier otra información relevante que desees agregar.
