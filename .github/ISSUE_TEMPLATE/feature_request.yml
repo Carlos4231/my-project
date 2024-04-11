@@ -1,38 +1,36 @@
 ---
-name: 💡 Feature Request
-about: Suggest a new feature or improvement for the project
+name: "🚀 Solicitud de Funcionalidad"
 title: "[Feature Request]: "
 labels: 
   - feature-request
-assignees: 
 
 body:
   - type: markdown
     attributes:
       value: |
-        **Description of the Feature**
-        Describe clearly the feature you are suggesting. What problem would it solve? What benefits would it bring?
+        **Descripción de la Funcionalidad**
+        Describe claramente la funcionalidad que estás sugiriendo. ¿Qué problema resolvería? ¿Qué beneficios traería?
 
   - type: markdown
     attributes:
       value: |
-        **Implementation Proposal**
-        Provide details on how this feature could be implemented. Is there any specific approach or solution you suggest?
+        **Propuesta de Implementación**
+        Proporciona detalles sobre cómo esta funcionalidad podría ser implementada. ¿Hay algún enfoque o solución específica que sugieres?
 
   - type: markdown
     attributes:
       value: |
-        **Use Case**
-        Provide a use case or scenario where this feature would be useful or relevant.
+        **Caso de Uso**
+        Proporciona un caso de uso o escenario en el que esta funcionalidad sería útil o relevante.
 
   - type: markdown
     attributes:
       value: |
-        **Screenshots (if applicable)**
-        If you have any visual idea of how this feature should look, you can attach screenshots or sketches here.
+        **Capturas de Pantalla (si es aplicable)**
+        Si tienes alguna idea visual sobre cómo debería lucir esta funcionalidad, puedes adjuntar capturas de pantalla o bocetos aquí.
 
-  - type: markdown
+  - type: textarea
     attributes:
-      value: |
-        **Additional Information**
-        Any other relevant information you'd like to add.
+      label: Información Adicional
+      placeholder: Cualquier otra información relevante que desees agregar.
+
