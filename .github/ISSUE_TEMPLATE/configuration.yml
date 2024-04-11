@@ -1,4 +1,4 @@
-name: Reporte de bug
+name: 🪲 Reporte de bug
 description: presente el reporte aqui
 title: "[Bug]: "
 labels: ["bug", "triage"]
@@ -8,7 +8,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: label 
+      value: |
        ## agradezco que llene este formulario para el informe de error
   - type: input
     id: contact
@@ -19,19 +19,19 @@ body:
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id:  what-happened
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
+      label: Que sucedio
+      description: tambien dinos que esperas que suceda??
+      placeholder: dinos que ves?
       value: "A bug happened!"
-    validations:
+    validations: ocurrio un error!
       required: true
   - type: dropdown
     id: version
     attributes:
       label: Version
-      description: What version of our software are you running?
+      description: que version ejecutas de nuestro software?
       options:
         - 1.0.2 (Default)
         - 1.0.3 (Edge)
@@ -41,7 +41,7 @@ body:
   - type: dropdown
     id: browsers
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: en que navegador estas?
       multiple: true
       options:
         - Firefox
@@ -51,7 +51,7 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
+      label: salida del registro
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
   - type: checkboxes
