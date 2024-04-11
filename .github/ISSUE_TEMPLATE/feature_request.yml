@@ -1,6 +1,7 @@
 ---
 name: "🚀 Solicitud de Funcionalidad"
 title: "[Feature Request]: "
+about: descripcion
 labels: 
   - feature-request
 
