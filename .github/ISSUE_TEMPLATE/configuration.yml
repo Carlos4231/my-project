@@ -1,21 +1,21 @@
-name: Bug Report
-description: File a bug report.
+name: Reporte de bug
+description: presente el reporte aqui
 title: "[Bug]: "
 labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+projects: [my-project de carlos]
 assignees:
-  - octocat
+  - Carlos Roa
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+      value: label 
+       ## agradezco que llene este formulario para el informe de error
   - type: input
     id: contact
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Detalle del contacto
+      description: Por favor deja un punto de contacto para poder informarlo de la solucion del problema.
+      placeholder: aqui debe de ir tu correo.
     validations:
       required: false
   - type: textarea
