@@ -1,64 +1,64 @@
-nombre: Informe de error 
-descripción: Presentar un informe de error. 
-título: "[Error]: " 
-etiquetas: ["error", "triaje"] 
-proyectos: ["octo-org/1", "octo-org/44"] 
-asignados: 
-  - 
-cuerpo de octocat: 
-  - tipo: 
-    atributos de rebajas: 
-      valor: | 
-        ¡Gracias por tomarse el tiempo para completar este informe de error! 
-  - tipo: 
-    ID de entrada: 
-    atributos de contacto: 
-      etiqueta: 
-      Descripción de detalles de contacto: ¿Cómo podemos comunicarnos con usted si necesitamos más información? 
-      marcador de posición: ej. email@example.com 
-    validaciones: 
-      requerido: falso 
-  - tipo: área de texto 
-    id: qué pasó 
-    atributos: 
-      etiqueta: ¿Qué pasó? 
-      descripción: Cuéntanos también, ¿qué esperabas que pasara? 
-      marcador de posición: ¡Cuéntanos lo que ves! 
-      valor: "¡Ocurrió un error!" 
-    validaciones: 
-      requerido: verdadero 
-  - tipo: 
-    ID desplegable: 
-    atributos de versión: 
-      etiqueta: 
-      Descripción de la versión: ¿Qué versión de nuestro software está ejecutando? 
-      opciones: 
-        - 1.0.2 (predeterminado) 
-        - 1.0.3 (Edge) 
-      predeterminado: 0 
-    validaciones: 
-      requerido: verdadero 
-  - tipo: 
-    ID desplegable: 
-    atributos de los navegadores: 
-      etiqueta: ¿En qué navegadores ve el problema? 
-      múltiples: verdadero 
-      opciones: 
-        - Firefox 
-        - Chrome 
-        - Safari 
-        - Microsoft Edge 
-  - tipo: 
-    ID de área de texto: 
-    atributos de registros: 
-      etiqueta: 
-      Descripción de salida de registro relevante: copie y pegue cualquier salida de registro relevante. Esto se formateará automáticamente en código, por lo que no será necesario utilizar comillas invertidas. 
-      render: shell 
-  - tipo: casillas de verificación 
-    id: términos 
-    atributos: 
-      etiqueta: Descripción del Código de conducta  Al enviar este problema, acepta seguir nuestro [Código de conducta] (https://example.com). 
-      opciones: 
-        - etiqueta: Acepto seguir el Código de conducta de este proyecto 
-          requerido: verdadero
-
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
