@@ -1,1 +1,65 @@
+nombre: Informe de error 
+descripción: Presentar un informe de error. 
+título: "[Error]: " 
+etiquetas: ["error", "triaje"] 
+proyectos: ["octo-org/1", "octo-org/44"] 
+asignados: 
+  - 
+cuerpo de octocat: 
+  - tipo: 
+    atributos de rebajas: 
+      valor: | 
+        ¡Gracias por tomarse el tiempo para completar este informe de error! 
+  - tipo: 
+    ID de entrada: 
+    atributos de contacto: 
+      etiqueta: 
+      Descripción de detalles de contacto: ¿Cómo podemos comunicarnos con usted si necesitamos más información? 
+      marcador de posición: ej. email@example.com 
+    validaciones: 
+      requerido: falso 
+  - tipo: área de texto 
+    id: qué pasó 
+    atributos: 
+      etiqueta: ¿Qué pasó? 
+      descripción: Cuéntanos también, ¿qué esperabas que pasara? 
+      marcador de posición: ¡Cuéntanos lo que ves! 
+      valor: "¡Ocurrió un error!" 
+    validaciones: 
+      requerido: verdadero 
+  - tipo: 
+    ID desplegable: 
+    atributos de versión: 
+      etiqueta: 
+      Descripción de la versión: ¿Qué versión de nuestro software está ejecutando? 
+      opciones: 
+        - 1.0.2 (predeterminado) 
+        - 1.0.3 (Edge) 
+      predeterminado: 0 
+    validaciones: 
+      requerido: verdadero 
+  - tipo: 
+    ID desplegable: 
+    atributos de los navegadores: 
+      etiqueta: ¿En qué navegadores ve el problema? 
+      múltiples: verdadero 
+      opciones: 
+        - Firefox 
+        - Chrome 
+        - Safari 
+        - Microsoft Edge 
+  - tipo: 
+    ID de área de texto: 
+    atributos de registros: 
+      etiqueta: 
+      Descripción de salida de registro relevante: copie y pegue cualquier salida de registro relevante. Esto se formateará automáticamente en código, por lo que no será necesario utilizar comillas invertidas. 
+      render: shell 
+  - tipo: casillas de verificación 
+    id: términos 
+    atributos: 
+      etiqueta: Descripción del Código de conducta 
+      : Al enviar este problema, acepta seguir nuestro [Código de conducta] (https://example.com). 
+      opciones: 
+        - etiqueta: Acepto seguir el Código de conducta de este proyecto 
+          requerido: verdadero
 
