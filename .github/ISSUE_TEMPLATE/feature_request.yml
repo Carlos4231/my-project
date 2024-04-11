@@ -35,15 +35,15 @@ body:
     attributes:
       label: "Prioridad:"
       options:
-        baja: Baja
-        media: Media
-        alta: Alta
+        - Baja
+        - Media
+        - Alta
 
   - type: textarea
     attributes:
       label: "Comentarios:"
       placeholder: |
-        * Comparte cualquier comentario o pregunta adicional que tengas.
+        * Comparte cualquier comentario o pregunta adic
 
 
 
