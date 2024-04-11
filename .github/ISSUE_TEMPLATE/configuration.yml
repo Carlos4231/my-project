@@ -57,8 +57,7 @@ cuerpo de octocat:
   - tipo: casillas de verificación 
     id: términos 
     atributos: 
-      etiqueta: "Descripción del Código de conducta" 
-      : Al enviar este problema, acepta seguir nuestro [Código de conducta] (https://example.com). 
+      etiqueta: Descripción del Código de conducta  Al enviar este problema, acepta seguir nuestro [Código de conducta] (https://example.com). 
       opciones: 
         - etiqueta: Acepto seguir el Código de conducta de este proyecto 
           requerido: verdadero
