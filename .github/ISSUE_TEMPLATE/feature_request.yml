@@ -1,20 +1,52 @@
 ---
-name: "🚀 Solicitud de Funcionalidad"
+name: "💡 Solicitud de Funcionalidad"
 title: "[Feature Request]: "
-description: "Descripción de la Funcionalidad"
-labels: 
+description: "Solicitar una nueva funcionalidad para el proyecto."
+labels:
   - feature-request
 
 body:
   - type: markdown
     attributes:
       value: |
-        **Descripción de la Funcionalidad**
-        Describe claramente la funcionalidad que estás sugiriendo. ¿Qué problema resolvería? ¿Qué beneficios traería?
+        **Descripción de la Funcionalidad:**
+
+        * Describe claramente la funcionalidad que estás sugiriendo.
+        * ¿Qué problema resolvería esta nueva funcionalidad?
+        * ¿Qué beneficios traería al proyecto y a los usuarios?
 
   - type: textarea
     attributes:
-      label: Información Adicional
-      placeholder: "Cualquier otra información relevante que desees agregar."
+      label: "Detalles de la Implementación:**
+
+      placeholder: |
+        * Describe cómo se podría implementar la nueva funcionalidad.
+        * ¿Hay algún componente o API específico que se debería usar?
+        * ¿Es posible proporcionar un ejemplo de código o un diagrama?
+
+  - type: textarea
+    attributes:
+      label: "Información Adicional:**
+
+      placeholder: |
+        * Comparte cualquier otra información que consideres relevante.
+        * ¿Hay algún caso de uso específico que se debería considerar?
+        * ¿Existen otras soluciones o alternativas que se han explorado?
+
+  - type: checkboxes
+    attributes:
+      label: "Prioridad:**
+      options:
+        - Baja
+        - Media
+        - Alta
+
+  - type: textarea
+    attributes:
+      label: "Comentarios:**
+
+      placeholder: |
+        * Comparte cualquier comentario o pregunta adicional que tengas.
+
 
 
