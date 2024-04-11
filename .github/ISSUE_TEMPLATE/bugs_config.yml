@@ -25,7 +25,7 @@ body:
       description: tambien dinos que esperas que suceda??
       placeholder: dinos que ves?
       value: "A bug happened!"
-    validations: ocurrio un error!
+    validations: 
       required: true
   - type: dropdown
     id: version
